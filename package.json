@@ -1,0 +1,33 @@
+{
+  "name": "save-withdrawl-pic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "run": "pm2 start dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/ali-oss": "^6.16.11",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "20.17.0",
+    "@types/qrcode": "^1.5.5",
+    "@types/ws": "^8.5.13",
+    "qrcode": "^1.5.4",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "ali-oss": "^6.22.0",
+    "axios": "^1.7.9",
+    "dayjs": "^1.11.13",
+    "file-type": "^19.6.0",
+    "js-yaml": "^4.1.0",
+    "sqlite3": "^5.1.7",
+    "ts-node": "^10.9.2",
+    "ws": "^8.18.0"
+  }
+}
